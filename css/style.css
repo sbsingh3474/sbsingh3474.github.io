@@ -1,0 +1,79 @@
+/* Simon Singh */
+/* SN: 301496619 */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: #d04444; 
+    color: white; 
+    padding: 15px; 
+    border-radius: 10px; 
+    text-align: center;
+    margin: 20px 0; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background-color: darkred; 
+    border-bottom-left-radius: 20px; 
+    border-bottom-right-radius: 20px; 
+    overflow: hidden; 
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a.active {
+    background-color: #d04444;
+}
+nav ul li a:hover {
+    background-color: #bb7474; 
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.first-image {
+    max-width: 40%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    
+}
+
+.video-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.tech-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
